@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
     void requestPermission(){
         if(ActivityCompat.shouldShowRequestPermissionRationale(MainActivity.this,Manifest.permission.READ_EXTERNAL_STORAGE)){
-            Toast.makeText(MainActivity.this,"READ PERMISSION IS REQUIRED,PLEASE ALLOW FROM SETTTINGS",Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this,"BACA ATURAN YANG ADA,IZIKAN DARI PENGATURAN",Toast.LENGTH_SHORT).show();
         }else
             ActivityCompat.requestPermissions(MainActivity.this,new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},123);
     }
